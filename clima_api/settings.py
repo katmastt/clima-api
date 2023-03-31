@@ -134,5 +134,7 @@ STATIC_URL = 'static/'
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+#DEFAULT_AUTHENTICATION_CLASSES = [ 'rest_framework.authentication.BasicAuthentication', 'rest_framework.authentication.SessionAuthentication', ] 
+
 import os
 STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
